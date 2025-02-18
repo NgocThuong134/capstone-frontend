@@ -1,3 +1,3 @@
-export const server = "http://localhost:8000/api/v2";
+export const server = "https://backendcapstone.ngocthuong.click/api/v2";
 
-export const backend_url = "http://localhost:8000/";
+export const backend_url = "https://backendcapstone.ngocthuong.click/";
