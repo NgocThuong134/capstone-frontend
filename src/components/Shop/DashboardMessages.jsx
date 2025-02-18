@@ -12,7 +12,7 @@ import { format } from "timeago.js";
 import { toast } from 'react-toastify';
 import Swal from 'sweetalert2'; 
 import { AiOutlineDelete} from "react-icons/ai";
-const ENDPOINT = "http://localhost:4000/";
+const ENDPOINT = "https://chatcapstone.ngocthuong.click/";
 const socketId = socketIO(ENDPOINT, { transports: ["websocket"] });
 
 const DashboardMessages = () => {
