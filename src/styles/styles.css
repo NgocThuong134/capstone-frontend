@@ -1,0 +1,33 @@
+/* Tùy chỉnh cho nút điều hướng */
+.swiper-button-next,
+.swiper-button-prev {
+    width: 30px; /* Thay đổi chiều rộng */
+    height: 30px; /* Thay đổi chiều cao */
+    border-radius: 50%; /* Bo tròn nút */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s; /* Hiệu ứng chuyển đổi */
+    margin-right: 10px;
+}
+
+
+/* Tùy chỉnh biểu tượng mũi tên */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 12px; /* Thay đổi kích thước biểu tượng */
+    color: aqua; /* Màu sắc của biểu tượng */
+}
+
+.swiper-slide {
+    margin-right: 15px !important;
+    position: initial !important; 
+    width: 275px !important;
+}
+.swiper-wrapper {
+    position: initial !important; /* Hoặc position: initial; */
+}
+
+.swiper {
+    padding: 15px !important;
+}
